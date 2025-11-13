@@ -1,9 +1,10 @@
-import unittest
-from calculator import *
-
 #https://github.com/edanturgeman/lab11-EK
 #Partner 1: Edan Turgeman
 #Partner 2: Kevin Taing
+import unittest
+from calculator import *
+
+
 
 class TestCalculator(unittest.TestCase):
      def test_add(self):

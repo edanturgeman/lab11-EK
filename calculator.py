@@ -1,3 +1,6 @@
+#https://github.com/edanturgeman/lab11-EK
+#Partner 1: Edan Turgeman
+#Partner 2: Kevin Taing
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -6,9 +9,7 @@ One function per operation, in order.
 """
 
 
-#https://github.com/edanturgeman/lab11-EK
-#Partner 1: Edan Turgeman
-#Partner 2: Kevin Taing
+
 # First example
 import math
 
