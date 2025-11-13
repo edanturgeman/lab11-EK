@@ -38,10 +38,12 @@ def div(a, b):
         return b/a
 
 def log(a, b):
-    if (a >= 1 or b >= 1):
-        raise math.log(a,b)
+    if type(a) is not int or type(b) is not int:
+        raise ValueError
+    elif a >= 1 or b >= 1:
+        return math.log(a,b)
     else:
-        return ValueError
+        raise ValueError
 
 def exp(a, b):
     return a**b
