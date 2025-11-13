@@ -5,6 +5,10 @@ calculator.py
 One function per operation, in order.
 """
 
+
+#https://github.com/edanturgeman/lab11-EK
+#Partner 1: Edan Turgeman
+#Partner 2: Kevin Taing
 # First example
 import math
 
@@ -34,10 +38,10 @@ def div(a, b):
         return b/a
 
 def log(a, b):
-    if (a >= 0 or b > 1):
-        raise ValueError
+    if (a >= 1 or b >= 1):
+        raise math.log(a,b)
     else:
-        return math.log(a,b)
+        return ValueError
 
 def exp(a, b):
     return a**b
