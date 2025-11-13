@@ -19,20 +19,15 @@ class TestCalculator(unittest.TestCase):
     # ##########################
 
      ######## Partner 1
-     def test_multiply(self): # 3 assertions
-         self.assertEqual(mul(3, 5), 15)
-         self.assertEqual(mul(50, 2), 100)
-         self.assertEqual(mul(60, 20), 1200)
-
+     # def test_multiply(self): # 3 assertions
      #     fill in code
 
-     def test_divide(self): # 3 assertions
-         self.assertEqual(div(5, 5), 1)
-         self.assertEqual(div(2, 50), 25)
-         self.assertEqual(div(20, 60), 3)
 
+     # def test_divide(self): # 3 assertions
      #     fill in code
      # ##########################
+
+
 
      ######## Partner 2
      def test_divide_by_zero(self): # 1 assertion
@@ -55,36 +50,25 @@ class TestCalculator(unittest.TestCase):
     #     # use same technique from test_divide_by_zero
     #     fill in code
     # ##########################
-    
-     def test_log_invalid_argument(self): # 1 assertion
-        with self.assertRaises(ValueError):
-            logarithm(0, "a")
 
-
-#     # call log function inside, example:
+    ######## Partner 1
+    # def test_log_invalid_argument(self): # 1 assertion
+    #     # call log function inside, example:
     #     # with self.assertRaises(<INSERT_ERROR_TYPE>):
     #     #     logarithm(0, 5)
     #     fill in code
 
-     def test_hypotenuse(self):
-        self.assertEqual(hypotenuse(3,4),5)
-        self.assertEqual(hypotenuse(5,12),13)
-        self.assertEqual(hypotenuse(8,6),10)
-        # 3 assertions
+    # def test_hypotenuse(self): # 3 assertions
     #     fill in code
 
-     def test_sqrt(self):
-         self.assertEqual(square_root(4), 2)
-         self.assertEqual(square_root(36), 6)
-         with self.assertRaises(ValueError):
-             square_root(-13)
-     # 3 assertions
+    # def test_sqrt(self): # 3 assertions
     #     # Test for invalid argument, example:
     #     # with self.assertRaises(<INSERT_ERROR_TYPE>):
     #     #    square_root(NUM)
     #     # Test basic function
     #     fill in code
     ##########################
+
 
 # Do not touch this
 if __name__ == "__main__":
