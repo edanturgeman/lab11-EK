@@ -15,11 +15,12 @@ import math
 import math
 
 def square_root(a):
-    try:
+    if type(a) is not int:
+        raise ValueError
+    elif a < 0:
+        raise ValueError
+    else:
         return math.sqrt(a)
-    except ValueError:
-        return print("Error")
-
 
 def add(a, b):
     return a + b
